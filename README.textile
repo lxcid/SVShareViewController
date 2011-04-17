@@ -1,0 +1,46 @@
+h1. SVShareViewController
+
+SVShareViewController is a simple compose UI for posting textual content to 3rd party services like Facebook and Twitter. It doesn't include the actual network classes that will do the API calls. For that, you should have a look at the "Facebook iOS SDK":https://github.com/facebook/facebook-ios-sdk and "MGTwitterEngine":https://github.com/mattgemmell/MGTwitterEngine.
+
+h2. Installation
+
+* Drag the @SVShareViewController/SVShareViewController@ folder into your project. 
+
+h2. Usage
+
+SVShareViewController currently supports 2 services: Facebook (@SVShareTypeFacebook@) and Twitter (@SVShareTypeTwitter@). You will specify the used service via the @initWithShareType:@ method. You'll also need to set its delegate. Finally, it is recommended that you set the @userString@ and @defaultMessage@ properties. The following code snippet is the typical way to setup an SVShareViewController instance:
+
+<pre>
+SVShareViewController *fbViewController = [[SVShareViewController alloc] initWithShareType:SVShareTypeFacebook];
+fbViewController.delegate = self;
+fbViewController.userString = @"John Smith";
+fbViewController.defaultMessage = @"Some stock text about the shared item.";
+
+[self presentModalViewController:fbViewController animated:YES];
+[fbViewController release];
+</pre>
+
+h2. Adopting the SVShareViewControllerDelegate protocol
+
+SVShareViewController provides UI for 2 actions: sending the message and logging out. You are required to adopt both delegate methods (presumably inside the view controller that presents the SVShareViewController instance):
+
+<pre>
+- (void)shareViewController:(SVShareViewController*)controller sendMessage:(NSString*)string forService:(SVShareType)shareType;
+</pre>
+
+This is where you'll make the API calls using either the "Facebook iOS SDK":https://github.com/facebook/facebook-ios-sdk or "MGTwitterEngine":https://github.com/mattgemmell/MGTwitterEngine, depending on the current @shareType@. Other stuff you might considering doing in this method:
+
+* Show a progress HUD to let the user know what's going on (for instance "SVProgressHUD":https://github.com/samvermette/SVProgressHUD)
+* Append a link to the tweet or the facebook post
+* Validate the user input (for instance make sure the string doesn't exceed 140 characters for tweets)
+* Make the actual API call to the appropriate service
+* Dismiss the SVShareViewController instance (on request success)
+
+<pre>
+- (void)shareViewController:(SVShareViewController*)controller logoutFromService:(SVShareType)shareType;
+</pre>
+
+Although SVShareViewController doesn't provide a signin mechanism, you are encouraged to implement the logout delegate. This typically involves 2 actions:
+
+* Make the appropriate API calls that make the session tokens invalid
+* Clear locally stored session variables (for instance stored in NSUserDefaults)

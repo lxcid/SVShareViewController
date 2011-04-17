@@ -1,0 +1,399 @@
+TSVShare
+v7
+r0
+t324704555.158905
+cCheck dependencies
+cProcessInfoPlistFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/Info.plist SVShare-Info.plist
+cCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/MainWindow.xib
+cCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/ViewController.xib
+cCpResource build/Debug-iphonesimulator/SVShare.app/facebook.png ../SVShareViewController/Ressources/facebook.png
+cCpResource build/Debug-iphonesimulator/SVShare.app/facebook@2x.png ../SVShareViewController/Ressources/facebook@2x.png
+cCpResource build/Debug-iphonesimulator/SVShare.app/twitter.png ../SVShareViewController/Ressources/twitter.png
+cCpResource build/Debug-iphonesimulator/SVShare.app/twitter@2x.png ../SVShareViewController/Ressources/twitter@2x.png
+cCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.xib
+cProcessPCH /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch.gch SVShare_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o /Users/sam/Documents/iOS/SVShareViewController/Demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/facebook.png
+c000000004D014973000000000000077D
+t1291929971
+s1917
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/facebook@2x.png
+c000000004D0149730000000000000E96
+t1291929971
+s3734
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/twitter.png
+c000000004D01497300000000000006C0
+t1291929971
+s1728
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/twitter@2x.png
+c000000004D0149730000000000000E1A
+t1291929971
+s3610
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m
+c000000004DAA61A1000000000000156A
+t1303011745
+s5482
+i"SVShareViewController.h"
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.xib
+c000000004DA9F456000000000000CFC0
+t1302983766
+s53184
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.h
+c000000004DA9F2D900000000000001E0
+t1302983385
+s480
+i<UIKit/UIKit.h>
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m
+c000000004DA9F2D90000000000000AB2
+t1302983385
+s2738
+i"AppDelegate.h"
+i"ViewController.h"
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.h
+c000000004DA9F2CC0000000000000104
+t1302983372
+s260
+i<UIKit/UIKit.h>
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m
+c000000004DA9F2CC00000000000005D0
+t1302983372
+s1488
+i"ViewController.h"
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/MainWindow.xib
+c000000004DA9F2EF0000000000005083
+t1302983407
+s20611
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/SVShare_Prefix.pch
+c000000004DA9F08E00000000000000D3
+t1302982798
+s211
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/ViewController.xib
+c000000004DA9F0A000000000000019A0
+t1302982816
+s6560
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app
+t2
+s0
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app.dSYM
+t2
+s0
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/Info.plist
+t1303011754
+s591
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/MainWindow.nib
+t1303011754
+s1663
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/PkgInfo
+t1303011754
+s8
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/SVShare
+t2
+s0
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/SVShareViewController.nib
+t1303011754
+s8027
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/ViewController.nib
+t1303011754
+s1269
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/facebook.png
+t1303011754
+s1917
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/facebook@2x.png
+t1303011754
+s3734
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/twitter.png
+t1303011754
+s1728
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/twitter@2x.png
+t1303011754
+s3610
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o
+t1303011755
+s50944
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShare.LinkFileList
+c000000004DAA61AA000000000000023E
+t1303011754
+s574
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o
+t2
+s0
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o
+t1303011755
+s37824
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o
+t1303011755
+s6336
+
+N/Users/sam/Documents/iOS/SVShareViewController/Demo/main.m
+c000000004DA9F08E0000000000000178
+t1302982798
+s376
+i<UIKit/UIKit.h>
+
+N/Users/sam/Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.h
+c000000004DAA60D300000000000002AA
+t1303011539
+s682
+i<UIKit/UIKit.h>
+
+N/var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch.gch
+t1303011755
+s15814064
+
+NSVShare-Info.plist
+c000000004DA9F08E000000000000038D
+t1302982798
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324704554#324704554#0(0"0(0#1#0"8637016928#0"0#
+
+CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324704555.087682
+e324704555.158850
+r1
+xCompileC
+xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o
+x/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m324704555#324704555#0(0"0(0#0#73"/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m8647281248#2079"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/include -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch -c /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m -o /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324704555.089065
+e324704555.153650
+r0
+xCompileC
+xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o
+x/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController initWithShareType:]':
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:39: warning: local declaration of 'shareType' hides instance variable
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:40: error: 'loginImageView' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:40: error: (Each undeclared identifier is reported only once
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:40: error: for each function it appears in.)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:41: error: 'disableKeyboard' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:43: warning: local declaration of 'shareType' hides instance variable
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:43: error: 'kSWFacebook' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:47: error: 'charLabel' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController dismissController]':
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:71: error: 'disableKeyboard' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController logout]':
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:79: error: 'kSWFacebook' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController textField:shouldChangeCharactersInRange:replacementString:]':
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:109: error: 'disableKeyboard' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:112: error: 'userField' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:113: error: 'passwordField' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:122: error: 'loginUserLabel' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:128: error: 'loginPasswordLabel' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController textView:shouldChangeTextInRange:replacementText:]':
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:141: error: 'disableKeyboard' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:146: error: 'kSWFacebook' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:151: error: 'charLabel' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController updateCharCount:]':
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:182: error: 'show' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:183: error: 'charLabel' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:189: error: 'shortLinkButton' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController dealloc]':
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:214: warning: implicit declaration of function 'DLog'
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:217: error: 'twitterEngine' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:220: error: 'facebookEngine' undeclared (first use in this function)
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:221: error: request for member 'show' in something not a structure or union
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: At top level:
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: incomplete implementation of class 'SVShareViewController'
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-sendUpdate' not found
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-sendTweet' not found
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-performLogin' not found
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-showLoginView' not found
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-showComposeView' not found
+o/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-dismiss' not found
+lSLF07#2@108"Compile /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704555#324704555#0(6608"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController initWithShareType:]':/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:39: warning: local declaration of 'shareType' hides instance variable/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:40: error: 'loginImageView' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:40: error: (Each undeclared identifier is reported only once/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:40: error: for each function it appears in.)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:41: error: 'disableKeyboard' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:43: warning: local declaration of 'shareType' hides instance variable/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:43: error: 'kSWFacebook' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:47: error: 'charLabel' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController dismissController]':/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:71: error: 'disableKeyboard' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController logout]':/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:79: error: 'kSWFacebook' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController textField:shouldChangeCharactersInRange:replacementString:]':/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:109: error: 'disableKeyboard' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:112: error: 'userField' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:113: error: 'passwordField' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:122: error: 'loginUserLabel' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:128: error: 'loginPasswordLabel' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController textView:shouldChangeTextInRange:replacementText:]':/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:141: error: 'disableKeyboard' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:146: error: 'kSWFacebook' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:151: error: 'charLabel' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController updateCharCount:]':/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:182: error: 'show' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:183: error: 'charLabel' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:189: error: 'shortLinkButton' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: In function '-[SVShareViewController dealloc]':/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:214: warning: implicit declaration of function 'DLog'/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:217: error: 'twitterEngine' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:220: error: 'facebookEngine' undeclared (first use in this function)/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:221: error: request for member 'show' in something not a structure or union/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m: At top level:/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: incomplete implementation of class 'SVShareViewController'/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-sendUpdate' not found/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-sendTweet' not found/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-performLogin' not found/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-showLoginView' not found/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-showComposeView' not found/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m:228: warning: method definition for '-dismiss' not found31(22@56"Local declaration of 'shareType' hides instance variable324704555#161#171#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#39#0#39#0#0"0(4@56"'loginImageView' undeclared (first use in this function)324704555#332#169#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#40#0#40#0#43"'*' undeclared (first use in this function)0(4@57"'disableKeyboard' undeclared (first use in this function)324704555#809#170#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#41#0#41#0#43"'*' undeclared (first use in this function)0(22@56"Local declaration of 'shareType' hides instance variable324704555#979#171#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#43#0#43#0#0"0(4@53"'kSWFacebook' undeclared (first use in this function)324704555#1150#166#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#43#0#43#0#43"'*' undeclared (first use in this function)0(4@51"'charLabel' undeclared (first use in this function)324704555#1316#164#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#47#0#47#0#43"'*' undeclared (first use in this function)0(4@57"'disableKeyboard' undeclared (first use in this function)324704555#1640#170#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#71#0#71#0#43"'*' undeclared (first use in this function)0(4@53"'kSWFacebook' undeclared (first use in this function)324704555#1959#166#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#79#0#79#0#43"'*' undeclared (first use in this function)0(4@57"'disableKeyboard' undeclared (first use in this function)324704555#2326#171#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#109#0#109#0#43"'*' undeclared (first use in this function)0(4@51"'userField' undeclared (first use in this function)324704555#2497#165#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#112#0#112#0#43"'*' undeclared (first use in this function)0(4@55"'passwordField' undeclared (first use in this function)324704555#2662#169#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#113#0#113#0#43"'*' undeclared (first use in this function)0(4@56"'loginUserLabel' undeclared (first use in this function)324704555#2831#170#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#122#0#122#0#43"'*' undeclared (first use in this function)0(4@60"'loginPasswordLabel' undeclared (first use in this function)324704555#3001#174#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#128#0#128#0#43"'*' undeclared (first use in this function)0(4@57"'disableKeyboard' undeclared (first use in this function)324704555#3367#171#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#141#0#141#0#43"'*' undeclared (first use in this function)0(4@53"'kSWFacebook' undeclared (first use in this function)324704555#3538#167#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#146#0#146#0#43"'*' undeclared (first use in this function)0(4@51"'charLabel' undeclared (first use in this function)324704555#3705#165#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#151#0#151#0#43"'*' undeclared (first use in this function)0(4@46"'show' undeclared (first use in this function)324704555#4029#160#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#182#0#182#0#43"'*' undeclared (first use in this function)0(4@51"'charLabel' undeclared (first use in this function)324704555#4189#165#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#183#0#183#0#43"'*' undeclared (first use in this function)0(4@57"'shortLinkButton' undeclared (first use in this function)324704555#4354#171#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#189#0#189#0#43"'*' undeclared (first use in this function)0(22@39"Implicit declaration of function 'DLog'324704555#4675#155#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#214#0#214#0#36"implicit declaration of function '*'0(4@55"'twitterEngine' undeclared (first use in this function)324704555#4830#169#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#217#0#217#0#43"'*' undeclared (first use in this function)0(4@56"'facebookEngine' undeclared (first use in this function)324704555#4999#170#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#220#0#220#0#43"'*' undeclared (first use in this function)0(4@63"Request for member 'show' in something not a structure or union324704555#5169#177#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#221#0#221#0#0"0(23@13"At top level:324704555#5346#116#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#0#0#0#0#0"0(22@58"Incomplete implementation of class 'SVShareViewController'324704555#5462#174#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#228#0#228#0#38"incomplete implementation of class '*'0(22@45"Method definition for '-sendUpdate' not found324704555#5636#161#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#228#0#228#0#35"method definition for '*' not found0(22@44"Method definition for '-sendTweet' not found324704555#5797#160#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#228#0#228#0#35"method definition for '*' not found0(22@47"Method definition for '-performLogin' not found324704555#5957#163#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#228#0#228#0#35"method definition for '*' not found0(22@48"Method definition for '-showLoginView' not found324704555#6120#164#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#228#0#228#0#35"method definition for '*' not found0(22@50"Method definition for '-showComposeView' not found324704555#6284#166#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#228#0#228#0#35"method definition for '*' not found0(22@42"Method definition for '-dismiss' not found324704555#6450#158#0(6@100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m324704545#228#0#228#0#35"method definition for '*' not found0(0#0#100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m8637546048#2116"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/include -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch -c /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m -o /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o1#
+
+CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324704555.088358
+e324704555.154252
+r1
+xCompileC
+xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o
+x/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m324704555#324704555#0(0"0(0#0#76"/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m8606319904#2085"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/include -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch -c /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m -o /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o0#
+
+CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o /Users/sam/Documents/iOS/SVShareViewController/Demo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324704555.086806
+e324704555.153936
+r1
+xCompileC
+xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o
+x/Users/sam/Documents/iOS/SVShareViewController/Demo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/sam/Documents/iOS/SVShareViewController/Demo/main.m324704555#324704555#0(0"0(0#0#58"/Users/sam/Documents/iOS/SVShareViewController/Demo/main.m8640993504#2057"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/include -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch -c /Users/sam/Documents/iOS/SVShareViewController/Demo/main.m -o /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.xib
+s324704554.194830
+e324704554.637006
+r1
+xCompileXIB
+x/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.xib
+lSLF07#2@61"CompileXIB ../SVShareViewController/SVShareViewController.xib324704554#324704554#0(0"0(0#0#102"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.xib8643231584#656"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/SVShareViewController.nib /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/MainWindow.xib
+s324704554.190620
+e324704554.515870
+r1
+xCompileXIB
+x/Users/sam/Documents/iOS/SVShareViewController/Demo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib324704554#324704554#0(0"0(0#0#66"/Users/sam/Documents/iOS/SVShareViewController/Demo/MainWindow.xib8656372512#609"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/MainWindow.nib /Users/sam/Documents/iOS/SVShareViewController/Demo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/ViewController.xib
+s324704554.191241
+e324704554.505566
+r1
+xCompileXIB
+x/Users/sam/Documents/iOS/SVShareViewController/Demo/ViewController.xib
+lSLF07#2@29"CompileXIB ViewController.xib324704554#324704554#0(0"0(0#0#70"/Users/sam/Documents/iOS/SVShareViewController/Demo/ViewController.xib8653886752#617"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/ViewController.nib /Users/sam/Documents/iOS/SVShareViewController/Demo/ViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/SVShare.app/facebook.png ../SVShareViewController/Ressources/facebook.png
+s324704554.191870
+e324704554.198897
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SVShare.app/facebook.png
+x../SVShareViewController/Ressources/facebook.png
+lSLF07#2@53"Copy ../SVShareViewController/Ressources/facebook.png324704554#324704554#0(0"0(0#0#100"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/facebook.png8651537696#545"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/facebook.png /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app0#
+
+CCpResource build/Debug-iphonesimulator/SVShare.app/facebook@2x.png ../SVShareViewController/Ressources/facebook@2x.png
+s324704554.192722
+e324704554.198635
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SVShare.app/facebook@2x.png
+x../SVShareViewController/Ressources/facebook@2x.png
+lSLF07#2@56"Copy ../SVShareViewController/Ressources/facebook@2x.png324704554#324704554#0(0"0(0#0#103"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/facebook@2x.png8647343008#548"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/facebook@2x.png /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app0#
+
+CCpResource build/Debug-iphonesimulator/SVShare.app/twitter.png ../SVShareViewController/Ressources/twitter.png
+s324704554.193441
+e324704554.198754
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SVShare.app/twitter.png
+x../SVShareViewController/Ressources/twitter.png
+lSLF07#2@52"Copy ../SVShareViewController/Ressources/twitter.png324704554#324704554#0(0"0(0#0#99"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/twitter.png8645293888#544"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/twitter.png /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app0#
+
+CCpResource build/Debug-iphonesimulator/SVShare.app/twitter@2x.png ../SVShareViewController/Ressources/twitter@2x.png
+s324704554.194120
+e324704554.199028
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SVShare.app/twitter@2x.png
+x../SVShareViewController/Ressources/twitter@2x.png
+lSLF07#2@55"Copy ../SVShareViewController/Ressources/twitter@2x.png324704554#324704554#0(0"0(0#0#102"/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/twitter@2x.png8643650368#547"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/twitter@2x.png /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app0#
+
+CGenerateDSYMFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app.dSYM /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/SVShare
+r0
+
+CLd /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/SVShare normal i386
+r0
+
+CProcessInfoPlistFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/Info.plist SVShare-Info.plist
+s324704554.184459
+e324704554.190564
+r1
+xProcessInfoPlistFile
+x/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/Info.plist
+xSVShare-Info.plist
+lSLF07#2@26"Process SVShare-Info.plist324704554#324704554#0(0"0(0#0#70"/Users/sam/Documents/iOS/SVShareViewController/Demo/SVShare-Info.plist28710920075673648#518"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SVShare-Info.plist -genpkginfo /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app/Info.plist0#
+
+CProcessPCH /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch.gch SVShare_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s324704554.637171
+e324704555.086742
+r1
+xProcessPCH
+x/var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch.gch
+xSVShare_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile SVShare_Prefix.pch324704554#324704555#0(0"0(0#0#70"/Users/sam/Documents/iOS/SVShareViewController/Demo/SVShare_Prefix.pch8659833408#1936"    cd /Users/sam/Documents/iOS/SVShareViewController/Demo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/include -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -c /Users/sam/Documents/iOS/SVShareViewController/Demo/SVShare_Prefix.pch -o /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dwnfpbkrghijgebaoawrltsktmyx/SVShare_Prefix.pch.gch0#
+
+CTouch /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphonesimulator/SVShare.app
+r0
+
