@@ -32,7 +32,7 @@ h3. Responding to the "Send" action
 
 This is where you make the API calls using either the "Facebook iOS SDK":https://github.com/facebook/facebook-ios-sdk or "MGTwitterEngine":https://github.com/mattgemmell/MGTwitterEngine (or any other API wrapper of your chosing), depending on the current @shareType@. Other typical tasks to be executed from within this delegate method:
 
-* Show a progress HUD to let the user know what's going on (for instance "SVProgressHUD":https://github.com/samvermette/SVProgressHUD)
+* Show a progress HUD to let the user know what's going on (__cough__ "SVProgressHUD":https://github.com/samvermette/SVProgressHUD __cough__)
 * Append a link to the tweet or the facebook post
 * Validate the user input (for instance make sure the string doesn't exceed 140 characters for tweets)
 * Dismiss the SVShareViewController instance (on request success)
