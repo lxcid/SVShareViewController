@@ -3,7 +3,7 @@
 //  SVShare
 //
 //  Created by Sam Vermette on 17.04.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Sam Vermette. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
