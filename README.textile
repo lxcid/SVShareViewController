@@ -8,7 +8,7 @@ h2. Installation
 
 h2. Usage
 
-SVShareViewController currently supports 2 services: Facebook (@SVShareTypeFacebook@) and Twitter (@SVShareTypeTwitter@). You will specify the used service via the @initWithShareType:@ method. You'll also need to set its delegate. Finally, it is recommended that you set the @userString@ and @defaultMessage@ properties. The following code snippet is the typical way to setup an SVShareViewController instance:
+SVShareViewController currently supports 2 services: Facebook (@SVShareTypeFacebook@) and Twitter (@SVShareTypeTwitter@). You will specify the used service via the @initWithShareType:@ method. You'll also need to set its delegate (that will handle the sending of messages and user signout). Finally, it is recommended that you set the @userString@ (usually retrieved from initial signin and then stored locally) and @defaultMessage@ properties. The following code snippet is the typical way to setup an SVShareViewController instance:
 
 <pre>
 SVShareViewController *fbViewController = [[SVShareViewController alloc] initWithShareType:SVShareTypeFacebook];
@@ -24,17 +24,21 @@ h2. Adopting the SVShareViewControllerDelegate protocol
 
 SVShareViewController provides UI for 2 actions: sending the message and logging out. You are required to adopt both delegate methods (presumably inside the view controller that presents the SVShareViewController instance):
 
+h3. Responding to the "Send" action
+
 <pre>
 - (void)shareViewController:(SVShareViewController*)controller sendMessage:(NSString*)string forService:(SVShareType)shareType;
 </pre>
 
-This is where you'll make the API calls using either the "Facebook iOS SDK":https://github.com/facebook/facebook-ios-sdk or "MGTwitterEngine":https://github.com/mattgemmell/MGTwitterEngine, depending on the current @shareType@. Other stuff you might considering doing in this method:
+This is where you'll make the API calls using either the "Facebook iOS SDK":https://github.com/facebook/facebook-ios-sdk or "MGTwitterEngine":https://github.com/mattgemmell/MGTwitterEngine, depending on the current @shareType@. Typical tasks to be executed from within this delegate method:
 
 * Show a progress HUD to let the user know what's going on (for instance "SVProgressHUD":https://github.com/samvermette/SVProgressHUD)
 * Append a link to the tweet or the facebook post
 * Validate the user input (for instance make sure the string doesn't exceed 140 characters for tweets)
 * Make the actual API call to the appropriate service
 * Dismiss the SVShareViewController instance (on request success)
+
+h3. Responding to the "Logout" action
 
 <pre>
 - (void)shareViewController:(SVShareViewController*)controller logoutFromService:(SVShareType)shareType;
@@ -44,3 +48,23 @@ Although SVShareViewController doesn't provide a signin mechanism, you are encou
 
 * Make the appropriate API calls that make the session tokens invalid
 * Clear locally stored session variables (for instance stored in NSUserDefaults)
+
+h2. More on Facebook and Twitter signin
+
+To make SVShareViewController flexible, and due to the many possible ways of setting up, and using the Facebook and Twitter API wrappers, I decided not to include these into the package and demo project. However, these wrappers can sometime be a PITA to implement so here brief walkthrough on how you should set them up.
+
+h3. Facebook signin
+
+The official Facebook iOS SDK is the only way to integrate Facebook into your app. The class at its core is @Facebook@, and it has a @isSessionValid@ method to check whether the user is already signed in. When that method returns @NO@, user will be presented with a modal webview that will prompt him for credentials. On successful login, the @fbDidLogin@ delegate method will get called. This is where you should:
+
+* make an API call to "Facebook to retrieve the user's fullname":http://developers.facebook.com/docs/reference/api/user/ and store it locally 
+* grab the @accessToken@ and the @expirationDate@ properties from your @Facebook@ instance and store them locally, that way the user stays signed in for as long as the expirationDate isn't reached
+* present your @SVShareViewController@ instance, after assigning its @userString@ property using the previously stored name value
+
+h3. Twitter signin
+
+Twitter is much more flexible in terms of signing in and API wrappers. For signing in, there are many web-based solutions out there, which asks for your Twitter credentials and then require the user to copy/paste an access pin. This is terrible UX. To allow native signin and most importantly without requiring the user to copy paste any bit of information, you'll need to "enable XAuth access for your app":https://dev.twitter.com/pages/xauth. Once that's done, you can then use MGTwitterEngine to both signin and make API calls. On successful signin, the @accessTokenReceived:forRequest:@ will be called. This is where you should:
+
+* make an API call to Twitter the to retrieve the username (using MGTwitterEngine's @checkUserCredentials@ method) and store it locally
+* grab the (OAuth) @key@ and @secret@ from the returned OAToken and store them locally, that way the user stays signed in for as long as the keys are valid
+* present your @SVShareViewController@ instance, after assigning its @userString@ property using the previously stored name value
