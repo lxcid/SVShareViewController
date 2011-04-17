@@ -4,7 +4,8 @@ SVShareViewController is a simple compose UI for posting textual content to 3rd 
 
 h2. Installation
 
-* Drag the @SVShareViewController/SVShareViewController@ folder into your project. 
+* Drag the @SVShareViewController/SVShareViewController@ folder into your project.
+* Add the *QuartzCore* framework to your project.
 
 h2. Usage
 
@@ -57,7 +58,7 @@ h3. Facebook authentication
 The official "Facebook iOS SDK":https://github.com/facebook/facebook-ios-sdk is the only way to integrate Facebook into your app. The class at its core is @Facebook@, and it has a @isSessionValid@ method to check whether the user is already signed in. When that method returns @NO@, user is presented with a modal webview that prompts him for credentials. On successful login, the @fbDidLogin@ delegate method gets called. This is where you should:
 
 * make an API call to Facebook to "retrieve the user's fullname":http://developers.facebook.com/docs/reference/api/user/ and store it locally;
-* grab the @accessToken@ and the @expirationDate@ properties from your @Facebook@ instance and store them locally, that way the user stays signed in for as long as the expirationDate isn't reached;
+* grab the @accessToken@ and the @expirationDate@ properties from your @Facebook@ instance and store them locally, that way the user stays signed in for as long as the expirationDate isn't reached  (make sure you assign them back everytime you create a new @Facebook@ instance though)
 * present your @SVShareViewController@ instance, after setting its @userString@ property using the previously stored name value.
 
 h3. Twitter authentication
@@ -65,5 +66,5 @@ h3. Twitter authentication
 Twitter is much more flexible in terms of sign in and API wrappers. For signing in, there are many web-based solutions out there, which ask for  Twitter credentials and then requires the user to copy/paste an access pin. This is terrible UX. To allow native sign in and most importantly not ask the user to copy paste any bit of information, you'll need to "enable XAuth access for your app":https://dev.twitter.com/pages/xauth. Once that's done, you can then use @MGTwitterEngine@:https://github.com/mattgemmell/MGTwitterEngine to make both the authentification and other API calls. On successful sign in, the @accessTokenReceived:forRequest:@ will be called. This is where you should:
 
 * make an API call to Twitter to retrieve the username (using MGTwitterEngine's @checkUserCredentials@ method) and store it locally;
-* grab the (OAuth) @key@ and @secret@ from the returned @OAToken@ and store them locally, that way the user stays signed in for as long as the keys are valid;
+* grab the (OAuth) @key@ and @secret@ from the returned @OAToken@ and store them locally, that way the user stays signed in for as long they're valid (make sure you assign them through the @accessToken@ property everytime you create a new @MGTwitterEngine@ instance though)
 * present your @SVShareViewController@ instance, after setting its @userString@ property using the previously stored name value.
