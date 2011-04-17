@@ -3,7 +3,7 @@ h1. SVShareViewController
 SVShareViewController is a simple compose UI for posting textual content to 3rd party services like Facebook and Twitter. It doesn't include the  network classes that will make the actual API calls. For that, you'll have to work with the "Facebook iOS SDK":https://github.com/facebook/facebook-ios-sdk and "MGTwitterEngine":https://github.com/mattgemmell/MGTwitterEngine.
 
 
-!http://samvermette.com/files/svshareviewcontroller.png!
+!http://samvermette.com/files/svshareviewcontroller2.png!
 
 h2. Installation
 
