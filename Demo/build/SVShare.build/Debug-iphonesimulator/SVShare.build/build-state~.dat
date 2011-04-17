@@ -1,456 +1,0 @@
-TSVShare
-v7
-r0
-t324763366.878286
-cCheck dependencies
-cProcessInfoPlistFile /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/Info.plist SVShare-Info.plist
-cCompileXIB /Users/sam/Desktop/SVShare/MainWindow.xib
-cCompileXIB /Users/sam/Desktop/SVShare/Classes/ViewController.xib
-cCpResource build/Debug-iphonesimulator/SVShare.app/facebookLogo.png ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo.png
-cCpResource build/Debug-iphonesimulator/SVShare.app/facebookLogo@2x.png ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo@2x.png
-cCpResource build/Debug-iphonesimulator/SVShare.app/twitterLogo.png ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo.png
-cCpResource build/Debug-iphonesimulator/SVShare.app/twitterLogo@2x.png ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo@2x.png
-cCompileXIB /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.xib
-cProcessPCH /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch.gch SVShare_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o /Users/sam/Desktop/SVShare/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o /Users/sam/Desktop/SVShare/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o /Users/sam/Desktop/SVShare/Classes/ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare normal i386
-cGenerateDSYMFile /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app.dSYM /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare
-cTouch /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-c000000004D5C9B4E0000000000000110
-t1297914702
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004D54CFFA00000000002999B0
-t1297403898
-s2726320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D54CFE5000000000029DA70
-t1297403877
-s2742896
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D54CFB80000000000001466
-t1297403832
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004D54D2DD00000000000000C4
-t1297404637
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004D54D4200000000000162C50
-t1297404960
-s1453136
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004D5615B40000000000000AA1
-t1297487284
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004D5616030000000000766870
-t1297487363
-s7759984
-
-N/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo.png
-c000000004D014973000000000000077D
-t1291929971
-s1917
-
-N/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo@2x.png
-c000000004D0149730000000000000E96
-t1291929971
-s3734
-
-N/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo.png
-c000000004D01497300000000000006C0
-t1291929971
-s1728
-
-N/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo@2x.png
-c000000004D0149730000000000000E1A
-t1291929971
-s3610
-
-N/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.h
-c000000004DAB0FAC00000000000004AE
-t1303056300
-s1198
-i<UIKit/UIKit.h>
-
-N/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.m
-c000000004DAB449F0000000000000E73
-t1303069855
-s3699
-i<QuartzCore/QuartzCore.h>
-i"SVShareViewController.h"
-
-N/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.xib
-c000000004DAB41B7000000000000A03B
-t1303069111
-s41019
-
-N/Users/sam/Desktop/SVShare/Classes/AppDelegate.h
-c000000004DAB46C600000000000001C4
-t1303070406
-s452
-i<UIKit/UIKit.h>
-
-N/Users/sam/Desktop/SVShare/Classes/AppDelegate.m
-c000000004DAB46C80000000000000A96
-t1303070408
-s2710
-i"AppDelegate.h"
-i"ViewController.h"
-
-N/Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.h
-c000000004DAB46BF00000000000001CB
-t1303070399
-s459
-i<UIKit/UIKit.h>
-
-N/Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m
-c000000004DAB46BF0000000000000AA4
-t1303070399
-s2724
-i"SVShareAppDelegate.h"
-i"ViewController.h"
-
-N/Users/sam/Desktop/SVShare/Classes/SVShareViewController.h
-c000000004DAB469700000000000000EF
-t1303070359
-s239
-i<UIKit/UIKit.h>
-
-N/Users/sam/Desktop/SVShare/Classes/SVShareViewController.m
-c000000004DAB469700000000000005C2
-t1303070359
-s1474
-i"SVShareViewController.h"
-
-N/Users/sam/Desktop/SVShare/Classes/ViewController.h
-c000000004DAB4505000000000000017C
-t1303069957
-s380
-i<UIKit/UIKit.h>
-i"SVShareViewController.h"
-
-N/Users/sam/Desktop/SVShare/Classes/ViewController.m
-c000000004DAB45050000000000000938
-t1303069957
-s2360
-i"ViewController.h"
-
-N/Users/sam/Desktop/SVShare/Classes/ViewController.xib
-c000000004DAB4737000000000000573B
-t1303070519
-s22331
-
-N/Users/sam/Desktop/SVShare/MainWindow.xib
-c000000004DAB470C00000000000057E4
-t1303070476
-s22500
-
-N/Users/sam/Desktop/SVShare/SVShareViewController.xib
-c000000004DAB46BC0000000000001992
-t1303070396
-s6546
-
-N/Users/sam/Desktop/SVShare/SVShare_Prefix.pch
-c000000004DAB469700000000000000B7
-t1303070359
-s183
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app
-t1303070566
-s408
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app.dSYM
-t1303070566
-s102
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/Info.plist
-t1303070565
-s591
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/MainWindow.nib
-t1303070566
-s1663
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/PkgInfo
-t1303070565
-s8
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare
-t1303070566
-s30792
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShareViewController.nib
-t1303070566
-s5248
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/ViewController.nib
-t1303070566
-s3127
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/facebookLogo.png
-t1303070565
-s1917
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/facebookLogo@2x.png
-t1303070565
-s3734
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/twitterLogo.png
-t1303070565
-s1728
-
-N/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/twitterLogo@2x.png
-t1303070565
-s3610
-
-N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o
-t1303070566
-s50892
-
-N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShare.LinkFileList
-c000000004DAB476500000000000001DA
-t1303070565
-s474
-
-N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareAppDelegate.o
-t1303070400
-s51264
-
-N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o
-t1303070566
-s65996
-
-N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o
-t1303070566
-s44424
-
-N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o
-t1303070566
-s6288
-
-N/Users/sam/Desktop/SVShare/main.m
-c000000004DAB4697000000000000016A
-t1303070359
-s362
-i<UIKit/UIKit.h>
-
-N/Users/sam/Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.h
-c000000004DAB0FAC00000000000004AE
-t1303056300
-s1198
-i<UIKit/UIKit.h>
-
-N/var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch.gch
-t1303070566
-s15814064
-
-NSVShare-Info.plist
-c000000004DAB4697000000000000038D
-t1303070359
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies324763365#324763365#0(0"0(0#1#0"8653805920#0"0#
-
-CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o /Users/sam/Desktop/SVShare/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324763366.762122
-e324763366.820865
-r1
-xCompileC
-xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o
-x/Users/sam/Desktop/SVShare/Classes/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/sam/Desktop/SVShare/Classes/AppDelegate.m324763366#324763366#0(0"0(0#0#48"/Users/sam/Desktop/SVShare/Classes/AppDelegate.m8616802272#1804"    cd /Users/sam/Desktop/SVShare    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator -I/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch -c /Users/sam/Desktop/SVShare/Classes/AppDelegate.m -o /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/AppDelegate.o0#
-
-CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareAppDelegate.o /Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324763200.232004
-e324763200.285532
-r1
-xCompileC
-xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareAppDelegate.o
-x/Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m324763200#324763200#0(0"0(0#0#55"/Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m8645171936#1818"    cd /Users/sam/Desktop/SVShare    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator -I/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch -c /Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m -o /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareAppDelegate.o0#
-
-CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324763366.763347
-e324763366.844686
-r1
-xCompileC
-xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o
-x/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@122"Compile /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.m324763366#324763366#0(0"0(0#0#114"/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.m8615693856#1880"    cd /Users/sam/Desktop/SVShare    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator -I/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch -c /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.m -o /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o0#
-
-CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShareViewController.o /Users/sam/Desktop/SVShare/Classes/SVShareViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o /Users/sam/Desktop/SVShare/Classes/ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324763366.762745
-e324763366.813950
-r1
-xCompileC
-xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o
-x/Users/sam/Desktop/SVShare/Classes/ViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/sam/Desktop/SVShare/Classes/ViewController.m324763366#324763366#0(0"0(0#0#51"/Users/sam/Desktop/SVShare/Classes/ViewController.m8616401184#1810"    cd /Users/sam/Desktop/SVShare    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator -I/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch -c /Users/sam/Desktop/SVShare/Classes/ViewController.m -o /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/ViewController.o0#
-
-CCompileC build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o /Users/sam/Desktop/SVShare/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s324763366.761407
-e324763366.802298
-r1
-xCompileC
-xbuild/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o
-x/Users/sam/Desktop/SVShare/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/sam/Desktop/SVShare/main.m324763366#324763366#0(0"0(0#0#33"/Users/sam/Desktop/SVShare/main.m8617633984#1782"    cd /Users/sam/Desktop/SVShare    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator -I/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -include /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch -c /Users/sam/Desktop/SVShare/main.m -o /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.xib
-s324763365.954409
-e324763366.346058
-r1
-xCompileXIB
-x/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.xib
-lSLF07#2@100"CompileXIB ../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.xib324763365#324763366#0(0"0(0#0#116"/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.xib8615048512#620"    cd /Users/sam/Desktop/SVShare    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShareViewController.nib /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB /Users/sam/Desktop/SVShare/Classes/ViewController.xib
-s324763365.952138
-e324763366.306044
-r1
-xCompileXIB
-x/Users/sam/Desktop/SVShare/Classes/ViewController.xib
-lSLF07#2@37"CompileXIB Classes/ViewController.xib324763365#324763366#0(0"0(0#0#53"/Users/sam/Desktop/SVShare/Classes/ViewController.xib8616699712#550"    cd /Users/sam/Desktop/SVShare    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/ViewController.nib /Users/sam/Desktop/SVShare/Classes/ViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB /Users/sam/Desktop/SVShare/MainWindow.xib
-s324763365.951682
-e324763366.274884
-r1
-xCompileXIB
-x/Users/sam/Desktop/SVShare/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib324763365#324763366#0(0"0(0#0#41"/Users/sam/Desktop/SVShare/MainWindow.xib8617357600#534"    cd /Users/sam/Desktop/SVShare    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/MainWindow.nib /Users/sam/Desktop/SVShare/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB /Users/sam/Desktop/SVShare/SVShareViewController.xib
-s324763199.493673
-e324763199.806885
-r1
-xCompileXIB
-x/Users/sam/Desktop/SVShare/SVShareViewController.xib
-lSLF07#2@36"CompileXIB SVShareViewController.xib324763199#324763199#0(0"0(0#0#52"/Users/sam/Desktop/SVShare/SVShareViewController.xib8644081952#556"    cd /Users/sam/Desktop/SVShare    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShareViewController.nib /Users/sam/Desktop/SVShare/SVShareViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCpResource build/Debug-iphonesimulator/SVShare.app/facebookLogo.png ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo.png
-s324763365.952584
-e324763365.957177
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/SVShare.app/facebookLogo.png
-x../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo.png
-lSLF07#2@96"Copy ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo.png324763365#324763365#0(0"0(0#0#118"/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo.png8616503584#513"    cd /Users/sam/Desktop/SVShare    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo.png /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app0#
-
-CCpResource build/Debug-iphonesimulator/SVShare.app/facebookLogo@2x.png ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo@2x.png
-s324763365.953031
-e324763365.957400
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/SVShare.app/facebookLogo@2x.png
-x../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo@2x.png
-lSLF07#2@99"Copy ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo@2x.png324763365#324763365#0(0"0(0#0#121"/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo@2x.png8616332416#516"    cd /Users/sam/Desktop/SVShare    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/facebookLogo@2x.png /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app0#
-
-CCpResource build/Debug-iphonesimulator/SVShare.app/twitterLogo.png ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo.png
-s324763365.953481
-e324763365.957745
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/SVShare.app/twitterLogo.png
-x../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo.png
-lSLF07#2@95"Copy ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo.png324763365#324763365#0(0"0(0#0#117"/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo.png8615705664#512"    cd /Users/sam/Desktop/SVShare    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo.png /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app0#
-
-CCpResource build/Debug-iphonesimulator/SVShare.app/twitterLogo@2x.png ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo@2x.png
-s324763365.953926
-e324763365.957973
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/SVShare.app/twitterLogo@2x.png
-x../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo@2x.png
-lSLF07#2@98"Copy ../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo@2x.png324763365#324763365#0(0"0(0#0#120"/Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo@2x.png8615574400#515"    cd /Users/sam/Desktop/SVShare    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sam/Desktop/SVShare/../../Documents/iOS/SVShareViewController/SVShareViewController/Ressources/twitterLogo@2x.png /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app0#
-
-CGenerateDSYMFile /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app.dSYM /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare
-s324763366.862891
-e324763366.876100
-r1
-xGenerateDSYMFile
-x/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app.dSYM
-x/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/SVShare.app.dSYM build/Debug-iphonesimulator/SVShare.app/SVShare324763366#324763366#0(0"0(0#0#74"/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare8613137120#347"    cd /Users/sam/Desktop/SVShare    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare -o /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app.dSYM0#
-
-CLd /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare normal i386
-s324763366.844756
-e324763366.862746
-r1
-xLd
-x/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare
-xnormal
-xi386
-lSLF07#2@79"Link /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare324763366#324763366#0(0"0(0#0#0"8615010240#862"    cd /Users/sam/Desktop/SVShare    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator -F/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator -filelist /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/Objects-normal/i386/SVShare.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/SVShare0#
-
-CProcessInfoPlistFile /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/Info.plist SVShare-Info.plist
-s324763365.949089
-e324763365.951633
-r1
-xProcessInfoPlistFile
-x/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/Info.plist
-xSVShare-Info.plist
-lSLF07#2@26"Process SVShare-Info.plist324763365#324763365#0(0"0(0#0#45"/Users/sam/Desktop/SVShare/SVShare-Info.plist8642656224#443"    cd /Users/sam/Desktop/SVShare    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SVShare-Info.plist -genpkginfo /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app/Info.plist0#
-
-CProcessPCH /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch.gch SVShare_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s324763366.346142
-e324763366.761338
-r1
-xProcessPCH
-x/var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch.gch
-xSVShare_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile SVShare_Prefix.pch324763366#324763366#0(0"0(0#0#45"/Users/sam/Desktop/SVShare/SVShare_Prefix.pch8649144672#1686"    cd /Users/sam/Desktop/SVShare    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-generated-files.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-own-target-headers.hmap -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-all-target-headers.hmap -iquote /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/SVShare-project-headers.hmap -F/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator -I/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/include -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources/i386 -I/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphonesimulator/SVShare.build/DerivedSources -c /Users/sam/Desktop/SVShare/SVShare_Prefix.pch -o /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-gufivcaehwfohmchwmyqtqedffvx/SVShare_Prefix.pch.gch0#
-
-CTouch /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app
-s324763366.876167
-e324763366.878174
-r1
-xTouch
-x/Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app
-lSLF07#2@72"Touch /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app324763366#324763366#0(0"0(0#0#0"8611638944#254"    cd /Users/sam/Desktop/SVShare    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sam/Desktop/SVShare/build/Debug-iphonesimulator/SVShare.app0#
-
