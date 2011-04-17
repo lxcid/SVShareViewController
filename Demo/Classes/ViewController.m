@@ -1,9 +1,9 @@
 //
-//  SVShareViewControllerViewController.m
-//  SVShareViewController
+//  SVShareViewController Demo Project
+//	ViewController.m
 //
 //  Created by Sam Vermette on 16.04.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Sam Vermette. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -17,7 +17,7 @@
 	SVShareViewController *fbViewController = [[SVShareViewController alloc] initWithShareType:SVShareTypeFacebook];
 	fbViewController.delegate = self;
 	fbViewController.userString = @"John Smith";
-	fbViewController.defaultMessage = @"User the .defaultMessage property to prefill this field with a stock message.";
+	fbViewController.defaultMessage = @"Lorizzle boofron amizzle, tellivizzle adipiscing you son of a bizzle.";
 	
 	[self presentModalViewController:fbViewController animated:YES];
 	[fbViewController release];
@@ -28,7 +28,7 @@
 	SVShareViewController *twViewController = [[SVShareViewController alloc] initWithShareType:SVShareTypeTwitter];
 	twViewController.delegate = self;
 	twViewController.userString = @"@johnsmith";
-	twViewController.defaultMessage = @"User the .defaultMessage property to prefill this field with a stock message.";
+	twViewController.defaultMessage = @"Lorizzle boofron amizzle, tellivizzle adipiscing you son of a bizzle.";
 	
 	[self presentModalViewController:twViewController animated:YES];
 	[twViewController release];

@@ -1,9 +1,9 @@
 //
-//  SVShareViewControllerAppDelegate.m
-//  SVShareViewController
+//  SVShareViewController Demo Project
+//	AppDelegate.m
 //
 //  Created by Sam Vermette on 16.04.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Sam Vermette. All rights reserved.
 //
 
 #import "AppDelegate.h"

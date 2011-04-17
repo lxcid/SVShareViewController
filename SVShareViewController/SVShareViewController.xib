@@ -77,7 +77,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">twitter.png</string>
+							<string key="NSResourceName">twitterLogo.png</string>
 						</object>
 					</object>
 					<object class="IBUIToolbar" id="930539380">
@@ -99,7 +99,7 @@
 						</object>
 						<object class="NSColor" key="IBUITintColor">
 							<int key="NSColorSpace">2</int>
-							<bytes key="NSRGB">MC4xNTYzNDU1MzYyIDAuNDEwODg0NjgxNyAwLjYxNTY4NjI5NzQAA</bytes>
+							<bytes key="NSRGB">MC4xNzI1NDkwMjQyIDAuNTgwMzkyMTgxOSAwLjcyMTU2ODY0NAA</bytes>
 						</object>
 					</object>
 					<object class="IBUILabel" id="255999660">
@@ -330,11 +330,6 @@
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">7</int>
-						<reference key="object" ref="821011756"/>
-						<reference key="parent" ref="930539380"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
 						<reference key="object" ref="255999660"/>
 						<reference key="parent" ref="191373211"/>
@@ -358,6 +353,11 @@
 						<int key="objectID">21</int>
 						<reference key="object" ref="492864512"/>
 						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">7</int>
+						<reference key="object" ref="821011756"/>
+						<reference key="parent" ref="930539380"/>
 					</object>
 				</object>
 			</object>
@@ -407,7 +407,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">AQAAAABDSAAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAw6sAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -436,7 +436,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">48</int>
+			<int key="maxID">50</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -927,7 +927,7 @@
 		<string key="IBDocument.LastKnownRelativeProjectPath">../Demo/SVShare.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">twitter.png</string>
+			<string key="NS.key.0">twitterLogo.png</string>
 			<string key="NS.object.0">{111, 23}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">141</string>

@@ -1,7 +1,6 @@
 TSVShare
 v7
 r1
-cCheck dependencies
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
 c000000004D5F25270000000000000110
@@ -38,321 +37,189 @@ c000000004D5A292A0000000000CA2AE0
 t1297754410
 s13249248
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/facebook.png
-c000000004D014973000000000000077D
-t1291929971
-s1917
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/facebook@2x.png
-c000000004D0149730000000000000E96
-t1291929971
-s3734
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/twitter.png
-c000000004D01497300000000000006C0
-t1291929971
-s1728
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/Ressources/twitter@2x.png
-c000000004D0149730000000000000E1A
-t1291929971
-s3610
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m
-c000000004DAA61A1000000000000156A
-t1303011745
-s5482
-i"SVShareViewController.h"
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.xib
-c000000004DA9F456000000000000CFC0
-t1302983766
-s53184
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SWComposeViewController.m
-c000000004D9D225D0000000000003910
-t1302143581
-s14608
-i"SWComposeViewController.h"
-i"SWWebViewController.h"
-i"SWDetailViewController.h"
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SWComposeViewController.xib
-c000000004DA9F456000000000000CFC0
-t1302983766
-s53184
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.h
-c000000004DA9F2D900000000000001E0
-t1302983385
+N/Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.h
+c000000004DAB469700000000000001E0
+t1303070359
 s480
 i<UIKit/UIKit.h>
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m
-c000000004DA9F2D90000000000000AB2
-t1302983385
-s2738
-i"AppDelegate.h"
-i"ViewController.h"
+N/Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m
+c000000004DAB46970000000000000AAB
+t1303070359
+s2731
+i"SVShareAppDelegate.h"
+i"SVShareViewController.h"
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.h
-c000000004DA9F2CC0000000000000104
-t1302983372
-s260
+N/Users/sam/Desktop/SVShare/Classes/SVShareViewController.h
+c000000004DAB469700000000000000EF
+t1303070359
+s239
 i<UIKit/UIKit.h>
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m
-c000000004DA9F2CC00000000000005D0
-t1302983372
-s1488
-i"ViewController.h"
+N/Users/sam/Desktop/SVShare/Classes/SVShareViewController.m
+c000000004DAB469700000000000005C2
+t1303070359
+s1474
+i"SVShareViewController.h"
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/MainWindow.xib
-c000000004DA9F2EF0000000000005083
-t1302983407
-s20611
+N/Users/sam/Desktop/SVShare/MainWindow.xib
+c000000004DAB46970000000000004E29
+t1303070359
+s20009
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/SVShare_Prefix.pch
-c000000004DA9F08E00000000000000D3
-t1302982798
-s211
+N/Users/sam/Desktop/SVShare/SVShareViewController.xib
+c000000004DAB46970000000000001A45
+t1303070359
+s6725
+
+N/Users/sam/Desktop/SVShare/SVShare_Prefix.pch
+c000000004DAB469700000000000000B7
+t1303070359
+s183
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/ViewController.xib
-c000000004DA9F0A000000000000019A0
-t1302982816
-s6560
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app
+N/Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app.dSYM
+N/Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app.dSYM
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/Info.plist
+N/Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/Info.plist
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/MainWindow.nib
+N/Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/MainWindow.nib
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/PkgInfo
+N/Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/PkgInfo
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/ResourceRules.plist
+N/Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/ResourceRules.plist
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/SVShare
+N/Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/SVShare
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/SVShareViewController.nib
+N/Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/SVShareViewController.nib
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/SWComposeViewController.nib
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShare
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/ViewController.nib
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/facebook.png
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/facebook@2x.png
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/twitter.png
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/twitter@2x.png
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/AppDelegate.o
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShare
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShare.LinkFileList
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShare.LinkFileList
 c00000000000000000000000000000000
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShareViewController.o
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShareAppDelegate.o
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SWComposeViewController.o
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShareViewController.o
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/ViewController.o
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/main.o
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/main.o
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShare
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/AppDelegate.o
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShare
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShare.LinkFileList
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShare.LinkFileList
 c00000000000000000000000000000000
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShareViewController.o
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShareAppDelegate.o
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SWComposeViewController.o
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShareViewController.o
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/ViewController.o
+N/Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/main.o
 t2
 s0
 
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/main.o
-t2
-s0
-
-N/Users/sam/Documents/iOS/SVShareViewController/Demo/main.m
-c000000004DA9F08E0000000000000178
-t1302982798
-s376
+N/Users/sam/Desktop/SVShare/main.m
+c000000004DAB4697000000000000016A
+t1303070359
+s362
 i<UIKit/UIKit.h>
 
-N/Users/sam/Documents/iOS/SVShareViewController/SVShareViewController/SVShareViewController.h
-c000000004DAA60D300000000000002AA
-t1303011539
-s682
-i<UIKit/UIKit.h>
-
-N/Users/sam/Documents/iOS/SVShareViewController/SVShareViewController/SWComposeViewController.h
-c000000004D6EBE5C0000000000000533
-t1299103324
-s1331
-i<UIKit/UIKit.h>
-i"MGTwitterEngine.h"
-i"FBConnect.h"
-
-N/var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-aagxtukjfytkwdedfosrvmkatvvg/SVShare_Prefix.pch.gch
+N/var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-bjcawkiinkjjpobmwuaydmhvexnx/SVShare_Prefix.pch.gch
 t2
 s0
 
-N/var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-azcvmparqtbxnkhjufrsaezufole/SVShare_Prefix.pch.gch
+N/var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dtjdnzmwtaeqbocxbhbijiyniftz/SVShare_Prefix.pch.gch
 t2
 s0
 
 NSVShare-Info.plist
-c000000004DA9F08E000000000000038D
-t1302982798
+c000000004DAB4697000000000000038D
+t1303070359
 s909
 
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies324704549#324704549#0(136"[BEROR]Code Sign error: a valid provisioning profile matching the application's Identifier 'com.yourcompany.SVShare' could not be found1(4@128"Code Sign error: a valid provisioning profile matching the application's Identifier 'com.yourcompany.SVShare' could not be found324704549#18446744073709551615#0#0(1@0"0(0#1#0"8605746400#0"0#
-
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/AppDelegate.o /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShareAppDelegate.o /Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShareViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShareViewController.o /Users/sam/Desktop/SVShare/Classes/SVShareViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SWComposeViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SWComposeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/main.o /Users/sam/Desktop/SVShare/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/ViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShareAppDelegate.o /Users/sam/Desktop/SVShare/Classes/SVShareAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/main.o /Users/sam/Documents/iOS/SVShareViewController/Demo/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShareViewController.o /Users/sam/Desktop/SVShare/Classes/SVShareViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/AppDelegate.o /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/main.o /Users/sam/Desktop/SVShare/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShareViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+CCompileXIB /Users/sam/Desktop/SVShare/MainWindow.xib
 r0
 
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SWComposeViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SWComposeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/ViewController.o /Users/sam/Documents/iOS/SVShareViewController/Demo/Classes/ViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/main.o /Users/sam/Documents/iOS/SVShareViewController/Demo/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SVShareViewController.xib
-r0
-
-CCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/../SVShareViewController/SWComposeViewController.xib
-r0
-
-CCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/MainWindow.xib
-r0
-
-CCompileXIB /Users/sam/Documents/iOS/SVShareViewController/Demo/ViewController.xib
-r0
-
-CCopyPNGFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/facebook.png ../SVShareViewController/Ressources/facebook.png
-r0
-
-CCopyPNGFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/facebook@2x.png ../SVShareViewController/Ressources/facebook@2x.png
-r0
-
-CCopyPNGFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/twitter.png ../SVShareViewController/Ressources/twitter.png
-r0
-
-CCopyPNGFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/twitter@2x.png ../SVShareViewController/Ressources/twitter@2x.png
+CCompileXIB /Users/sam/Desktop/SVShare/SVShareViewController.xib
 r0
 
 CCpResource build/Debug-iphoneos/SVShare.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
 r0
 
-CCreateUniversalBinary /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/SVShare normal "armv6 armv7"
+CCreateUniversalBinary /Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/SVShare normal "armv6 armv7"
 r0
 
-CGenerateDSYMFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app.dSYM /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/SVShare
+CGenerateDSYMFile /Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app.dSYM /Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/SVShare
 r0
 
-CLd /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShare normal armv6
+CLd /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv6/SVShare normal armv6
 r0
 
-CLd /Users/sam/Documents/iOS/SVShareViewController/Demo/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShare normal armv7
+CLd /Users/sam/Desktop/SVShare/build/SVShare.build/Debug-iphoneos/SVShare.build/Objects-normal/armv7/SVShare normal armv7
 r0
 
-CProcessInfoPlistFile /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app/Info.plist SVShare-Info.plist
+CProcessInfoPlistFile /Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app/Info.plist SVShare-Info.plist
 r0
 
-CProcessPCH /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-aagxtukjfytkwdedfosrvmkatvvg/SVShare_Prefix.pch.gch SVShare_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+CProcessPCH /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-bjcawkiinkjjpobmwuaydmhvexnx/SVShare_Prefix.pch.gch SVShare_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 r0
 
-CProcessPCH /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-azcvmparqtbxnkhjufrsaezufole/SVShare_Prefix.pch.gch SVShare_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+CProcessPCH /var/folders/4g/4gEV2xSpGFSfshA3rTcYO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SVShare_Prefix-dtjdnzmwtaeqbocxbhbijiyniftz/SVShare_Prefix.pch.gch SVShare_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 r0
 
-CTouch /Users/sam/Documents/iOS/SVShareViewController/Demo/build/Debug-iphoneos/SVShare.app
+CTouch /Users/sam/Desktop/SVShare/build/Debug-iphoneos/SVShare.app
 r0
 

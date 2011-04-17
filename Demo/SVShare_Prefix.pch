@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'SVShareViewController' target in the 'SVShareViewController' project
+// Prefix header for all source files of the 'SVShare' target in the 'SVShare' project
 //
 
 #ifdef __OBJC__

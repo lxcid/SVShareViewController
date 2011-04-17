@@ -1,8 +1,8 @@
 //
 //  main.m
-//  SVShareViewController
+//  SVShare
 //
-//  Created by Sam Vermette on 16.04.11.
+//  Created by Sam Vermette on 17.04.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

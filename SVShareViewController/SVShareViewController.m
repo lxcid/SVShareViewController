@@ -5,6 +5,8 @@
 //  Copyright 2010 Sam Vermette. All rights reserved.
 //
 
+#import <QuartzCore/QuartzCore.h>
+
 #import "SVShareViewController.h"
 
 #define kSWNavTintFacebook [UIColor colorWithRed:0.108 green:0.323 blue:0.552 alpha:1.000]
@@ -13,7 +15,6 @@
 @interface SVShareViewController ()
 
 @property (readwrite) SVShareType shareType;
-@property (readwrite) BOOL disableKeyboard;
 
 - (void)updateCharCount;
 
@@ -22,7 +23,7 @@
 @implementation SVShareViewController
 
 @synthesize userString, defaultMessage;
-@synthesize delegate, shareType, disableKeyboard;
+@synthesize delegate, shareType;
 
 #pragma mark -
 #pragma mark View Life Cycle
@@ -61,17 +62,16 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
-//	CALayer *dummyLine = [CALayer layer];
-//	dummyLine.frame = CGRectMake(0,1,320,1);
-//	dummyLine.backgroundColor = [[UIColor colorWithWhite:1 alpha:0.42] CGColor];
-//	[toolbar.layer addSublayer:dummyLine];
+	// this fixes a UI glitch where Retina toolbars don't display the 1px gloss at the top
+	
+	if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2) {
+		CALayer *dummyLine = [CALayer layer];
+		dummyLine.frame = CGRectMake(0,1,320,1);
+		dummyLine.backgroundColor = [[UIColor colorWithWhite:1 alpha:0.5] CGColor];
+		[toolbar.layer addSublayer:dummyLine];
+	}
 }
 
-- (void)viewDidUnload {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
 
 #pragma mark -
 #pragma mark UI Setters
@@ -88,7 +88,6 @@
 #pragma mark Actions
 
 - (void)dismiss {
-	disableKeyboard = NO;
 	[self.parentViewController dismissModalViewControllerAnimated:YES];
 }
 
@@ -106,6 +105,8 @@
 													   delegate:self 
 											  cancelButtonTitle:@"Cancel" 
 											  otherButtonTitles:@"Logout", nil];
+	
+	alertView.transform = CGAffineTransformTranslate(alertView.transform, 0.0, 35);
 	
 	[alertView show];
 	[alertView release];
@@ -127,10 +128,7 @@
 #pragma mark UITextView Delegate methods
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
-	
-	if(disableKeyboard)
-		return NO;
-	
+
 	if([text isEqualToString:@"\n"]) {
 		[delegate shareViewController:self sendMessage:textView.text forService:self.shareType];
 		return NO;
@@ -157,10 +155,8 @@
 
 
 - (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
     
-    // Release any cached data, images, etc that aren't in use.
 }
 
 
