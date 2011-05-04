@@ -92,38 +92,6 @@
 }
 
 
-- (void)logout {
-	NSString *service;
-	
-	if(self.shareType == SVShareTypeFacebook)
-		service = @"Facebook";
-	else
-		service = @"Twitter";
-	
-	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Logout %@", service] 
-														message:[NSString stringWithFormat:@"Are you sure you want to logout from %@?", service] 
-													   delegate:self 
-											  cancelButtonTitle:@"Cancel" 
-											  otherButtonTitles:@"Logout", nil];
-	
-	alertView.transform = CGAffineTransformTranslate(alertView.transform, 0.0, 35);
-	
-	[alertView show];
-	[alertView release];
-}
-
-
-#pragma mark -
-#pragma mark UIAlertViewDelegate (for logout action)
-
-- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
-	
-	if(buttonIndex == 1)
-		[delegate shareViewController:self logoutFromService:self.shareType];
-}
-
-
-
 #pragma mark -
 #pragma mark UITextView Delegate methods
 

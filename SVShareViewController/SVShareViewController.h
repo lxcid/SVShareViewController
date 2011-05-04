@@ -21,7 +21,6 @@ typedef enum SVShareType SVShareType;
 	IBOutlet UINavigationBar *navBar;
 	IBOutlet UIToolbar *toolbar;
 	IBOutlet UIImageView *logoView;
-	IBOutlet UIBarButtonItem *logoutButton;
 	IBOutlet UILabel *charLabel, *userLabel;
 }
 
@@ -32,7 +31,6 @@ typedef enum SVShareType SVShareType;
 - (SVShareViewController*)initWithShareType:(SVShareType)shareType;
 
 - (IBAction)dismiss;
-- (IBAction)logout;
 
 @end
 
@@ -40,6 +38,5 @@ typedef enum SVShareType SVShareType;
 @protocol SVShareViewControllerDelegate
 
 - (void)shareViewController:(SVShareViewController*)controller sendMessage:(NSString*)string forService:(SVShareType)shareType;
-- (void)shareViewController:(SVShareViewController*)controller logoutFromService:(SVShareType)shareType;
 
 @end
