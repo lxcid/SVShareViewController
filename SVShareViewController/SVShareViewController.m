@@ -88,7 +88,7 @@
 #pragma mark Actions
 
 - (void)dismiss {
-	[self.parentViewController dismissModalViewControllerAnimated:YES];
+	[self.delegate shareViewController:self didDismissForService:self.shareType];
 }
 
 

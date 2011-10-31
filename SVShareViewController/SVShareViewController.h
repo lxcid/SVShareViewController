@@ -38,5 +38,6 @@ typedef enum SVShareType SVShareType;
 @protocol SVShareViewControllerDelegate
 
 - (void)shareViewController:(SVShareViewController*)controller sendMessage:(NSString*)string forService:(SVShareType)shareType;
+- (void)shareViewController:(SVShareViewController *)controller didDismissForService:(SVShareType)shareType;
 
 @end
