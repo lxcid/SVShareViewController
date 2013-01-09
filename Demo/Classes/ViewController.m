@@ -59,6 +59,10 @@
 	
 }
 
+- (void)shareViewControllerDidFinish:(SVShareViewController *)controller {
+    [controller dismissModalViewControllerAnimated:YES];
+}
+
 #pragma mark -
 
 - (void)didReceiveMemoryWarning {

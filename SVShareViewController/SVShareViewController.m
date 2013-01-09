@@ -15,6 +15,7 @@
 @interface SVShareViewController ()
 
 @property (readwrite) SVShareType shareType;
+@property (nonatomic, assign) CGRect keyboardFrameEnd;
 
 - (void)updateCharCount;
 
@@ -22,83 +23,150 @@
 
 @implementation SVShareViewController
 
-@synthesize userString, defaultMessage;
-@synthesize delegate, shareType;
+@synthesize userString = _userString;
+@synthesize defaultMessage = _defaultMessage;
 
-#pragma mark -
-#pragma mark View Life Cycle
+#pragma mark - View Life Cycle
 
-
-- (void)dealloc {
-    [super dealloc];
-}
-
-
-- (SVShareViewController*)initWithShareType:(SVShareType)sType {
-	
-	if(self = [super initWithNibName:@"SVShareViewController" bundle:[NSBundle mainBundle]]) {
-		self.shareType = sType;
-		logoView.hidden = YES;
-		
-		if(shareType == SVShareTypeFacebook && self.view) {
-			navBar.tintColor = toolbar.tintColor = kSWNavTintFacebook;
-			logoView.image = [UIImage imageNamed:@"facebookLogo.png"];
-			charLabel.hidden = YES;
-		}
-		
-		else if(self.view) {
-			navBar.tintColor = toolbar.tintColor = kSWNavTintTwitter;
-			logoView.image = [UIImage imageNamed:@"twitterLogo.png"];
-			charLabel.hidden = NO;
-			[self updateCharCount];
-		}
-		
-		[rTextView becomeFirstResponder];
+- (id)initWithShareType:(SVShareType)sType {
+	self = [super initWithNibName:@"SVShareViewController" bundle:[NSBundle mainBundle]];
+	if (self) {
+		_shareType = sType;
 	}
-	
 	return self;
 }
 
 - (void)viewDidLoad {
-	[super viewDidLoad];
-	
-	// this fixes a UI glitch where Retina toolbars don't display the 1px gloss at the top
-	
-	if([[UIScreen mainScreen] respondsToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] == 2) {
-		CALayer *dummyLine = [CALayer layer];
-		dummyLine.frame = CGRectMake(0,1,320,1);
-		dummyLine.backgroundColor = [[UIColor colorWithWhite:1 alpha:0.5] CGColor];
-		[toolbar.layer addSublayer:dummyLine];
-	}
+    [super viewDidLoad];
+    
+    if (_userString) {
+        self.userLabel.text = _userString;
+        _userString = nil;
+    }
+    
+    if (_defaultMessage) {
+        self.rTextView.text = _defaultMessage;
+        _defaultMessage = nil;
+    }
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    switch (self.shareType) {
+        case SVShareTypeFacebook: {
+            self.navBar.tintColor = self.toolbar.tintColor = kSWNavTintFacebook;
+            self.logoView.image = [UIImage imageNamed:@"SVShareViewController.bundle/facebookLogo.png"];
+            self.charLabel.hidden = YES;
+        } break;
+        case SVShareTypeTwitter: {
+            self.navBar.tintColor = self.toolbar.tintColor = kSWNavTintTwitter;
+            self.logoView.image = [UIImage imageNamed:@"SVShareViewController.bundle/twitterLogo.png"];
+            self.charLabel.hidden = NO;
+            [self updateCharCount];
+        } break;
+    }
+    
+    [self registerForKeyboardNotifications];
+    [self.rTextView becomeFirstResponder];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    
+    [self unregisterForKeyboardNotifications];
+}
+
+- (void)layoutSubviewsForInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    switch (interfaceOrientation) {
+        case UIInterfaceOrientationLandscapeLeft:
+        case UIInterfaceOrientationLandscapeRight: {
+            self.toolbar.frame = CGRectMake(0.0f, CGRectGetHeight(self.view.bounds) - CGRectGetWidth(self.keyboardFrameEnd) - CGRectGetHeight(self.toolbar.frame), CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.toolbar.frame));
+        } break;
+        case UIInterfaceOrientationPortrait:
+        case UIInterfaceOrientationPortraitUpsideDown: {
+            self.toolbar.frame = CGRectMake(0.0f, CGRectGetHeight(self.view.bounds) - CGRectGetHeight(self.keyboardFrameEnd) - CGRectGetHeight(self.toolbar.frame), CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.toolbar.frame));
+        } break;
+    }
+    
+    self.rTextView.frame = CGRectMake(0.0f, CGRectGetMaxY(self.navBar.frame), CGRectGetWidth(self.view.bounds), CGRectGetMinY(self.toolbar.frame) - CGRectGetMaxY(self.navBar.frame));
+    self.charLabel.frame = CGRectMake(CGRectGetWidth(self.view.bounds) - (CGRectGetWidth(self.view.bounds) - CGRectGetMinX(self.charLabel.frame)), CGRectGetMinY(self.toolbar.frame) + ((CGRectGetHeight(self.toolbar.frame) - CGRectGetHeight(self.charLabel.frame)) / 2.0f), CGRectGetWidth(self.charLabel.frame), CGRectGetHeight(self.charLabel.frame));
+    self.userLabel.frame = CGRectMake(10.0f, CGRectGetMinY(self.toolbar.frame) + ((CGRectGetHeight(self.toolbar.frame) - CGRectGetHeight(self.userLabel.frame)) / 2.0f), CGRectGetWidth(self.userLabel.frame), CGRectGetHeight(self.userLabel.frame));
 }
 
 
-#pragma mark -
-#pragma mark UI Setters
+#pragma mark - Keyboard
+
+- (void)registerForKeyboardNotifications {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillBeShown:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillBeHidden:) name:UIKeyboardWillHideNotification object:nil];
+    
+}
+
+- (void)unregisterForKeyboardNotifications {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+}
+
+- (void)keyboardWillBeShown:(NSNotification *)theNotification {
+    NSValue *theValue = theNotification.userInfo[UIKeyboardFrameEndUserInfoKey];
+    self.keyboardFrameEnd = theValue.CGRectValue;
+    [self layoutSubviewsForInterfaceOrientation:self.interfaceOrientation];
+}
+
+- (void)keyboardWillBeHidden:(NSNotification *)theNotification {
+    self.keyboardFrameEnd = CGRectZero;
+}
+
+
+#pragma mark - UI Setters
 
 - (void)setUserString:(NSString *)aString {
-	userLabel.text = aString;
+    if (self.isViewLoaded) {
+        self.userLabel.text = [aString copy];
+    } else {
+        _userString = [aString copy];
+    }
+}
+
+- (NSString *)userString {
+    if (self.isViewLoaded) {
+        return self.userLabel.text;
+    } else {
+        return _userString;
+    }
 }
 
 - (void)setDefaultMessage:(NSString *)aString {
-	rTextView.text = aString;
+	if (self.isViewLoaded) {
+        self.rTextView.text = aString;
+        [self textViewDidChange:self.rTextView];
+    } else {
+        _defaultMessage = [aString copy];
+    }
 }
 
-#pragma mark -
-#pragma mark Actions
-
-- (void)dismiss {
-	[self.delegate shareViewController:self didDismissForService:self.shareType];
+- (NSString *)defaultMessage {
+    if (self.isViewLoaded) {
+        return self.rTextView.text;
+    } else {
+        return _defaultMessage;
+    }
 }
 
 
-#pragma mark -
-#pragma mark UITextView Delegate methods
+#pragma mark - Actions
+
+- (IBAction)dismiss {
+	[self.delegate shareViewControllerDidFinish:self];
+}
+
+
+#pragma mark - UITextView Delegate methods
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
-
 	if([text isEqualToString:@"\n"]) {
-		[delegate shareViewController:self sendMessage:textView.text forService:self.shareType];
+		[self.delegate shareViewController:self sendMessage:textView.text forService:self.shareType];
 		return NO;
 	}
 	
@@ -106,27 +174,19 @@
 }
 
 - (void)textViewDidChange:(UITextView *)textView {
-	
 	[self updateCharCount];
 }
-			 
-			 
-			 
+
 - (void)updateCharCount {
-	
-	charLabel.text = [NSString stringWithFormat:@"%i", 140-[rTextView.text length]];;
+	self.charLabel.text = [NSString stringWithFormat:@"%i", 140-[self.rTextView.text length]];;
 }
 
 
-#pragma mark -
-#pragma mark Memory Methods
-
+#pragma mark - Memory Methods
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
 }
-
-
 
 @end

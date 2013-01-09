@@ -7,28 +7,27 @@
 
 #import <UIKit/UIKit.h>
 
-enum SVShareType {
-	SVShareTypeFacebook,
+typedef NS_ENUM(NSUInteger, SVShareType) {
+    SVShareTypeFacebook,
 	SVShareTypeTwitter
 };
 
-typedef enum SVShareType SVShareType;
-
 @protocol SVShareViewControllerDelegate;
 
-@interface SVShareViewController : UIViewController <UIAlertViewDelegate, UITextViewDelegate> {
-	IBOutlet UITextView *rTextView;
-	IBOutlet UINavigationBar *navBar;
-	IBOutlet UIToolbar *toolbar;
-	IBOutlet UIImageView *logoView;
-	IBOutlet UILabel *charLabel, *userLabel;
-}
+@interface SVShareViewController : UIViewController <UIAlertViewDelegate, UITextViewDelegate>;
+
+@property (nonatomic, strong) IBOutlet UITextView *rTextView;
+@property (nonatomic, strong) IBOutlet UINavigationBar *navBar;
+@property (nonatomic, strong) IBOutlet UIToolbar *toolbar;
+@property (nonatomic, strong) IBOutlet UIImageView *logoView;
+@property (nonatomic, strong) IBOutlet UILabel *charLabel;
+@property (nonatomic, strong) IBOutlet UILabel *userLabel;
 
 @property (nonatomic, assign) id<SVShareViewControllerDelegate> delegate;
-@property (nonatomic, assign) NSString *userString;
-@property (nonatomic, assign) NSString *defaultMessage;
+@property (nonatomic, copy) NSString *userString;
+@property (nonatomic, copy) NSString *defaultMessage;
 
-- (SVShareViewController*)initWithShareType:(SVShareType)shareType;
+- (id)initWithShareType:(SVShareType)sType;
 
 - (IBAction)dismiss;
 
@@ -37,7 +36,7 @@ typedef enum SVShareType SVShareType;
 
 @protocol SVShareViewControllerDelegate
 
+- (void)shareViewControllerDidFinish:(SVShareViewController *)controller;
 - (void)shareViewController:(SVShareViewController*)controller sendMessage:(NSString*)string forService:(SVShareType)shareType;
-- (void)shareViewController:(SVShareViewController *)controller didDismissForService:(SVShareType)shareType;
 
 @end
